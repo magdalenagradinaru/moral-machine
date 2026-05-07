@@ -1,0 +1,21 @@
+id,titlu,descriere,optiunea_A,optiunea_B,categorie
+1,Unul vs. Mulți,"O mașină autonomă circulă cu viteză normală. Frânele cedează brusc. În față sunt 5 pietoni care traversează regulamentar. Pe trotuar se află 1 pieton.","Lovește cei 5 pietoni din fața mașinii (nu deviază)","Deviază pe trotuar și lovește 1 pieton",Cantitate
+2,Copii vs. Bătrâni,"Mașina autonomă nu mai poate frâna. Pe un traseu se află 3 copii (8-10 ani), pe celălalt 5 persoane vârstnice (70+ ani).","Lovește cei 3 copii","Lovește cei 5 vârstnici",Vârstă
+3,Doctor vs. Homeless,"Frânele cedează. Pe Calea 1 se află un doctor de urgențe în drum spre spital. Pe Calea 2 se află 3 persoane fără adăpost.","Lovește doctorul","Lovește cele 3 persoane fără adăpost",Status Social
+4,Pasageri vs. Pietoni,"Mașina iese de pe șosea. Poate lovi 1 pasager propriu (ocupantul mașinii) sau 3 pietoni pe trotuar.","Lovește pasagerul propriu (mașina se oprește în gard)","Lovește cei 3 pietoni de pe trotuar",Pasageri vs Pietoni
+5,Femeie Însărcinată vs. Grup,"Frânele cedează. Pe Calea 1 o femeie însărcinată (2 vieți). Pe Calea 2 doi adulți.","Lovește femeia însărcinată","Lovește cei 2 adulți",Vulnerabilitate
+6,Om vs. Animal,"Mașina autonomă nu poate evita o coliziune. Pe traseu se află fie un om adult, fie un câine de companie al altcuiva.","Lovește omul","Lovește câinele",Om vs Animal
+7,Vinovat vs. Nevinovat,"Frânele cedează. Pe Calea 1 un criminal condamnat care a scăpat din închisoare. Pe Calea 2 un copil de 6 ani.","Lovește criminalul","Lovește copilul",Statut Moral
+8,Acțiune vs. Inacțiune,"Mașina merge drept și va lovi 1 persoană care a căzut pe șosea. Poate devia și lovi 5 persoane pe trotuar.","Nu deviază — lovește 1 persoană (inacțiune)","Deviază activ și lovește 5 persoane (acțiune)",Acțiune vs Inacțiune
+9,Atlet vs. Persoană cu Dizabilitate,"Frânele cedează. Pe Calea 1 un atlet profesionist tânăr. Pe Calea 2 o persoană în scaun cu rotile.","Lovește atletul","Lovește persoana cu dizabilitate",Vulnerabilitate
+10,Pompier vs. Civil,"Mașina nu poate frâna. Pe Calea 1 un pompier în uniformă (mergea spre o intervenție). Pe Calea 2 un civil adult.","Lovește pompierul","Lovește civilul",Status Social
+11,5 Adulți vs. 1 Copil,"Frânele cedează complet. Pe șosea 5 adulți (25-40 ani). Pe trotuar 1 copil de 4 ani.","Lovește cei 5 adulți","Lovește copilul",Cantitate vs Vârstă
+12,Profesor vs. Infractor,"Pe Calea 1 un profesor care mergea la școală. Pe Calea 2 o persoană cu antecedente penale multiple.","Lovește profesorul","Lovește persoana cu antecedente penale",Statut Moral
+13,Nou-Născut vs. Vârstnic,"Mașina nu poate evita coliziunea. Pe Calea 1 un bebeluș de 6 luni. Pe Calea 2 un pensionar de 85 de ani.","Lovește bebelușul","Lovește pensionarul",Vârstă Extremă
+14,5 Animale vs. 1 Om,"Frânele cedează. Pe Calea 1 un adult sănătos. Pe Calea 2 un grup de 5 câini de rasă pură.","Lovește omul","Lovește cei 5 câini",Om vs Animale Multiple
+15,Bogat vs. Sărac,"Ambele persoane sunt adulți sănătoși. Pe Calea 1 un milionar cunoscut. Pe Calea 2 un muncitor cu salariu minim.","Lovește milionarul","Lovește muncitorul",Statut Economic
+16,Asistentă vs. Pacient,"Mașina iese de pe șosea spre un spital. Pe Calea 1 o asistentă medicală. Pe Calea 2 un pacient în stare gravă externalizat.","Lovește asistenta","Lovește pacientul",Status Social
+17,3 Copii vs. 1 Femeie Însărcinată,"Frânele cedează. Pe Calea 1 trei copii de 5-7 ani. Pe Calea 2 o femeie în luna a 8-a de sarcină.","Lovește cei 3 copii","Lovește femeia însărcinată (2 vieți potențiale)",Număr vs Potențial Viitor
+18,Soldat vs. Civil,"Pe Calea 1 un soldat în uniformă (în permisie). Pe Calea 2 un civil adult. Frânele nu funcționează.","Lovește soldatul","Lovește civilul",Statut Social
+19,2 Vârstnici vs. 1 Tânăr,"Frânele cedează. Pe Calea 1 două persoane de 75 de ani. Pe Calea 2 o persoană de 20 de ani.","Lovește cei 2 vârstnici","Lovește tânărul de 20 de ani",Cantitate vs Vârstă
+20,Pasager Vinovat vs. Pietoni Nevinovați,"Șoferul (pasagerul) a provocat intenționat defectarea frânelor. Mașina va lovi fie șoferul vinovat (dacă deviază brusc), fie 3 pietoni nevinovați.","Lovește șoferul vinovat (deviație bruscă care îl aruncă afară)","Lovește cei 3 pietoni nevinovați",Responsabilitate Morală
